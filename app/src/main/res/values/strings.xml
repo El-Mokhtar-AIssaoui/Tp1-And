@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="nom">Nom :</string>
+    <string name="name">name</string>
+</resources>

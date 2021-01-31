@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nomT"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="30dp"
+        android:text="nom :" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" />
+
+    <TextView
+        android:id="@+id/prenomT"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="30dp"
+        android:text="Prénom :" />
+
+    <EditText
+        android:id="@+id/prenom"
+
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" />
+    <TextView
+        android:id="@+id/ageT"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="30dp"
+        android:text="Age :" />
+
+    <EditText
+        android:id="@+id/age"
+
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" />
+
+    <TextView
+        android:id="@+id/numT"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="30dp"
+        android:text="Numéro de téléphone :" />
+
+    <EditText
+        android:id="@+id/num"
+
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" />
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:text="Valider"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="132dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fr"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="FR"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/en"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="EN"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
